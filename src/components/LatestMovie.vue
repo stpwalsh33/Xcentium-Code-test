@@ -53,6 +53,7 @@ export default {
       .then(response => {
         this.wholeResponse = response.Search
         this.loading = false
+        console.log(response)
       })
       .catch(error => {
         console.log(error)
