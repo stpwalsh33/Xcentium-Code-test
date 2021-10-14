@@ -45,7 +45,7 @@ export default {
   data () {
     return {
       wholeResponse: [],
-      loading: false
+      loading: true
     }
   },
   mounted () {
